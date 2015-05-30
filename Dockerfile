@@ -3,6 +3,7 @@ FROM ubuntu:latest
 MAINTAINER Ansgar Schmidt <ansgar.schmidt@gmx.net>
 
 VOLUME ["/jira/data/attachments"]
+VOLUME ["/jira/export"]
 
 ENV DEBIAN_FRONTEND noninteractive
 
