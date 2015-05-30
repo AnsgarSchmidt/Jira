@@ -2,6 +2,8 @@ FROM ubuntu:latest
 
 MAINTAINER Ansgar Schmidt <ansgar.schmidt@gmx.net>
 
+VOLUME ["/jira/data/attachments"]
+
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update
