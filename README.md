@@ -1,6 +1,6 @@
 #Jira
 
-Docker build file for Attlasian's Jira. This docker file is based on ubuntu 14.4 and Jira version 6.4.4.
+Docker build file for Attlasian's Jira. This docker file is based on ubuntu 14.4 and Jira version 6.4.11.
 
 ##Get it
 
